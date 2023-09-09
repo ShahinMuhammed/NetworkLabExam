@@ -10,7 +10,7 @@ echo "The number of line is : " $(wc --lines< $fileName)
 
 echo "The number of words is :" $(wc --words < $fileName)
 
-echo "The number of character is :$char" $(wc --char <$fileName)
+echo "The number of character is :" $(wc --char <$fileName)
 
 for i in $(cat $fileName)
 do
