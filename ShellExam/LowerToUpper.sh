@@ -1,5 +1,4 @@
-#read -p "Enter the file name : " fileName
-fileName=file.txt
+read -p "Enter the file name : " fileName
 echo "Converting from lower case to uppercase "
 
 tr '[ a-z ]' '[ A-Z ]' <$fileName
