@@ -11,9 +11,9 @@ for number in "${array[@]}"
 do
     if (($number%2==0))
 	then
-	sumEven=$((sumEven+$number))
+	sumEven=$(($sumEven+$number))
 	else
-	sumOdd=$(($sumOdd+$number))
+	sumOdd=$(($sumOdd+$number)) 
 	fi
 done
 echo "Sum of even numbers in the list is $sumEven"
