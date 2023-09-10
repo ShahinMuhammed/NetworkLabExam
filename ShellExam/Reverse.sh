@@ -1,8 +1,7 @@
 read -p "Enter the number: " num
 temp=$num
+length=${#num}
 reversed=""
-stringNum="$num"
-length=${#stringNum}
 while [ $length -gt 0 ]
 do
     digit=$(expr $num % 10)
