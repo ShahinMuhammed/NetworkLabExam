@@ -1,6 +1,5 @@
 read -p "Enter the number :" num
 temp=$num
-string="$temp"
 length=${#temp}
 armstrong=0
 while [ $temp -gt 0 ]
