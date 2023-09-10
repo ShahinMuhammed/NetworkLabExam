@@ -1,10 +1,12 @@
 read -p "Enter the number :" num
 temp=$num
+string="$temp"
+length=${#temp}
 armstrong=0
 while [ $temp -gt 0 ]
 do
 	digit=$(($temp %10))
-	value=$(($digit **3))
+	value=$(($digit **length))
 	armstrong=$(($armstrong+$value))
 	temp=$(($temp/10))
 done
